@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { parse } from 'node-html-parser';
+import { users } from './users';
 
 function getDateString(date) {
     return date.toISOString().substring(0, 10);
@@ -12,9 +13,6 @@ async function getNumberOfCommits(user, date) {
     const rect = document.querySelector('rect[data-date="' + dateStr + '"]')
     return Number(rect.getAttribute('data-count'))
 }
-
-const users = [
-]
 
 const webhookUrl = process.env.WEBHOOK_URL
 

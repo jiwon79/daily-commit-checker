@@ -1,12 +1,8 @@
 name: cron
-# on:
-#   schedule:
-#     # KST 12
-#     - cron: '0 3 * * *'
 on:
-  push:
-    branches:
-      - master
+  schedule:
+    # KST 12
+    - cron: '0 3 * * *'
 jobs:
   cron:
     runs-on: ubuntu-latest

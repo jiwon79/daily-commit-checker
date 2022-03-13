@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { parse } from 'node-html-parser';
-import { users } from './users';
+import { users } from './users.js';
 
 function getDateString(date) {
     return date.toISOString().substring(0, 10);

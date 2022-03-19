@@ -3,5 +3,6 @@ export const users = [
     'kangsm0903:U0379TKSR5E',
     'toezilla:U0355K3U2CR',
     'jiwon79:U034CCQGCLX',
-    'syKim12:U036FQYD0QH'
+    'syKim12:U036FQYD0QH',
+    'j1h00:U037SHQAG7M',
 ]
